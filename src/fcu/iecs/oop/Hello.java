@@ -13,9 +13,8 @@ public class Hello {
     // 3. 將 轉換後的字串印出
     // 印出結果應該為 Let "her" go! Let "her" go! Can't hold "her" back anymore
 
-    System.out.println(lyrics);
+    System.out.println(lyrics.replace("it", "\"her\"").replace("Cannot", "Can\'t"));
 
   }
 
 }
-
